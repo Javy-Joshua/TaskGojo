@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "build":"npm run build",
     "test": "jest --detectOpenHandles",
     "start": "node api.js",
     "start:dev": "nodemon api.js",
