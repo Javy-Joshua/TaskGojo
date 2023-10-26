@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskGojo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/css/styleD.css">
+      <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
+        }
+      </style>
+</head>
+<body>
+    <header> 
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <img src="img/logo.svg" alt="c">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="/home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="/api/todos/create" class="nav__link">create Task</a></li>
+                    <li class="nav__item"><a href="/api/dashboard" class="nav__link">Dashboard</a></li>
+                </ul>
+                <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a href="/home" class="nav__link">Log out</a></li>
+                  <!--   <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign up</a></li>
+                </ul> -->
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container row">
+            <table>
+            <tr>
+                <th>Title</th>
+                <th>Task</th>
+                <th>Status</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            <% todos.forEach(function(todo){ %>
+                <tr>
+                    <td><%= todo.title %></td>
+                    <td><%= todo.description %></td>
+                    <td><%= todo.status %></td>
+                    <td><a href="/edit/<%= todo.id %>" >Edit</a></td>
+                    <td><a href="/todos/delete/<%= todo._id  %>" >Delete</a></td>
+                </tr>
+            <% }); %>
+            </table>
+        </div>
+    </section> 
+
+    <script src="main.js"></script>
+</body>
+</html>

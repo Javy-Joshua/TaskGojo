@@ -1,0 +1,52 @@
+{"level":"error","message":"Error fetching tasks: Cast to ObjectId failed for value \"0e87c71c-61e1-4ce5-9f75-9b9593cc6a45\" (type string) at path \"_id\" for model \"todos\""}
+{"level":"error","message":"Error fetching tasks: Cast to ObjectId failed for value \"update\" (type string) at path \"_id\" for model \"todos\""}
+{"level":"error","message":"Error fetching tasks: Cast to ObjectId failed for value \"main.js\" (type string) at path \"_id\" for model \"todos\""}
+{"level":"error","message":"Error fetching tasks: Invalid status code: {\n  message: 'User created successfully',\n  user: [Object],\n  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imphdnlqb3NodWFAZ21haWwuY29tIiwiX2lkIjoiZWFiZjkyMTgtMTM1Yy00ZTJmLTkyYzEtOGYzYzhiZjMwZmQ1IiwiaWF0IjoxNjk4MDg4ODE4fQ.LosVopopWYBgs09aUTiyEQ0sqiZlo579z6Xh1xqJXH0'\n}"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: {\n  message: 'Login successful',\n  user: [Object],\n  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imphdnlqb3NodWFAZ21haWwuY29tIiwiX2lkIjoiZWFiZjkyMTgtMTM1Yy00ZTJmLTkyYzEtOGYzYzhiZjMwZmQ1IiwiaWF0IjoxNjk4MDkzNTU5LCJleHAiOjE2OTgwOTcxNTl9.G2Ve3hD4wRMoqTfJAHQ6GZhhZhusk74ojhfYV-prfmc'\n}"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: {\n  message: 'Login successful',\n  user: [Object],\n  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ikhlbm55QGV4YW1wbGUuY29tIiwiX2lkIjoiYTZhMzM1NjktMTRlNi00ZmJiLWE1MmUtZmQ1NzQwMzU1N2U1IiwiaWF0IjoxNjk4MjE0MDg1LCJleHAiOjE2OTgyMTc2ODV9.Nqm--Y5tKQoZUT1-IO2ZGLK_ALt7_mohXZl4MfX3CK0'\n}"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: { message: 'Login successful' }"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: { message: 'Login successful' }"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: { message: 'Login successful' }"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: {}"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: { message: 'Login successful' }"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Invalid status code: { user: [Object] }"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Cast to ObjectId failed for value \"styles.css\" (type string) at path \"_id\" for model \"todos\""}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"info","message":"[CreateUser] => login process started"}
+{"level":"error","message":"Error fetching tasks: Cannot read properties of undefined (reading 'query')"}

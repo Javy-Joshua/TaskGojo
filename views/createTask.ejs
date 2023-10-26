@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskGojo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/css/styleD.css">
+  
+</head>
+<body>
+    <header> 
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <img src="img/logo.svg" alt="c">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="/home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="/api/dashboard" class="nav__link">Dashboard</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">View Tasks</a></li>
+                </ul>
+                <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a href="/api/logout" class="nav__link">Log out</a></li>
+                  <!--   <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign up</a></li>
+                </ul> -->
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container row">
+            <div class="hero__text">
+               <form action="/todos" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title" required><br>
+                
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="5" cols="50" required></textarea><br>
+                
+                <button type="submit">Create Task</button>
+            </form> 
+                
+
+            </div>
+        </div>
+    </section> 
+
+    <script src="main.js"></script>
+</body>
+</html>

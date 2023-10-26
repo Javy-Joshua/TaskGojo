@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p,h1,h2,div{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(./img/rod-long-89bQBucvJdw-unsplash.jpg);
+  inline-size: 100%;
+  block-size: 70vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+form {
+  inline-size: 270px;
+  block-size: 510px;
+  background: rgba(225, 225, 225, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  content: "";
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  aspect-ratio: 1;
+}
+
+form input {
+  /* inline-size:250px ; */
+  block-size: 20px;
+  margin-inline-start: 20px;
+  margin-Block-start: 10px;
+  /* margin-Block-end: 5px; */
+  background-color: #0000;
+  border-inline-start: none;
+  border-inline-end: none;
+  border-block-start: none;
+  border-block-end: 1px solid brown;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* color: white; */
+}
+
+form input:focus {
+  outline: none;
+}
+
+/* form p{
+  margin-top:20px ;
+  padding-inline-start: 20px;
+} */
+
+#church{
+  margin-block-end: 10px;
+}
+
+#training-1{
+  margin-block-end: 10px;
+}
+
+.title{
+  margin-inline-start: 20px;
+  font-size: 18px;
+}
+
+.button{
+  margin: '';
+  /* margin-inline-start:20px ; */
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btnn{
+  margin-block-start: 10px;
+  inline-size: 6.25rem;
+  padding-inline-end: 7.5rem;
+  padding-block-end: .8rem;
+  border-radius: 100px;
+  background-color:brown ;
+  /* border-color: brown; */
+  color: #fff;
+  border: 1px solid brown;
+  cursor: pointer;
+  
+}
+
+.btnn:focus{
+  outline: none;
+
+}
+
+.btnn input{
+  color: #fff;
+  border: none;
+}
+
+.btnn:hover{
+  border: 3px solid burlywood;
+  /* transition: 0.5s ease; */
+  /* opacity: .8; */
+}
+
+form .link a{
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+  
+  color: #f55932;
+}

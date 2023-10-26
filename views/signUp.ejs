@@ -1,0 +1,49 @@
+<%- include('partials/auth_header') %>
+    <form
+      action="/users/signup"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      
+      <label for="name">
+        <input type="text" name="name"   id="name" placeholder="Name" /><br />
+      </label>
+
+      <label for="contact">
+        <input
+          type="text"
+          name="contact"
+          id="contact"
+          placeholder="contact(i.e, Ontario)"
+        /> </label
+      ><br />
+      <label for="email">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        /> </label
+      ><br />
+      <label for="password">
+        <input
+          type="text"
+          name="password"
+          id="password"
+          placeholder="password"
+        /> </label
+      ><br />
+
+      <div class="button">
+        <label for="submit">
+          <button class="btnn"><input type="submit" value="Sign Up" /></button>
+        </label>
+      </div>
+      <!-- <a href="/api/login">Already have an account? Login here</a> -->
+      <p class="link">
+        Already have an account<br />
+        <a href="/users/login">Log In</a> here
+      </p>
+    </form>
+
+<%- include('partials/auth_footer') %>
